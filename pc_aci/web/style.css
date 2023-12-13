@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    height: 94px;
+    justify-content: space-between;
+}
+
+.logo_tittle{
+    display: flex;
+    margin-right: 30px;
+}
+
+.tittle{
+    padding-left: 30px;
+    padding-top: 15px;
+    color: aliceblue;
+}
+
+.navi{
+    display: flex;
+    background-color: black;
+    float: right;
+    margin-right: 60px;
+}
+
+.navi_a{
+    color: aliceblue;
+    display: block;
+    margin: 1rem;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.post{
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.time{
+    background-color: gray;
+    height: 600px;
+}
+/* 固定位置 */
+
+.base1{
+    background-image: url(../data/孫劭芃_山豬騎士普遍級-天后宮之戰_10.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 100%;
+    padding: 10px;
+    background-attachment: fixed;
+
+}
+
+.base_desc{
+    margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 0 rgb(176, 155, 142);
+    line-height: 40px;
+}
+
+.cover{
+    height: 500px;
+}
+
+/* 作品區 */
+.cont_tittle{
+    margin: 30px 0px 0px 10px;
+}
+
+.pic_ls{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic_item{
+    margin: 10px 20px;
+    display: flex;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_inner{
+    margin: 0 30px;
+}
+
+.pic_tittle{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
